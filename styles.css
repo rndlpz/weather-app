@@ -1,0 +1,18 @@
+body {
+background: #FADFA9;
+background: -moz-linear-gradient(left, #CAFFFF 0%, #DFFFFF 50%, #FFFFFF 100%);
+background: -webkit-linear-gradient(left, #CAFFFF 0%, #DFFFFF 50%, #FFFFFF 100%);
+background: linear-gradient(to right, #CAFFFF 0%, #DFFFFF 50%, #FFFFFF 100%);
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sevenday {
+	display: flex;
+	align-items: center;
+}
+.forecast{
+	padding: 0.3em
+}
